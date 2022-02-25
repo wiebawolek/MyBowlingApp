@@ -1,0 +1,9 @@
+C:\projects\MyBowlingApp\BowlingScoringBoard\bin\Debug\netstandard2.0\BowlingScoringBoard.deps.json
+C:\projects\MyBowlingApp\BowlingScoringBoard\bin\Debug\netstandard2.0\BowlingScoringBoard.dll
+C:\projects\MyBowlingApp\BowlingScoringBoard\bin\Debug\netstandard2.0\BowlingScoringBoard.pdb
+C:\projects\MyBowlingApp\BowlingScoringBoard\obj\Debug\netstandard2.0\BowlingScoringBoard.csprojAssemblyReference.cache
+C:\projects\MyBowlingApp\BowlingScoringBoard\obj\Debug\netstandard2.0\BowlingScoringBoard.csproj.CoreCompileInputs.cache
+C:\projects\MyBowlingApp\BowlingScoringBoard\obj\Debug\netstandard2.0\BowlingScoringBoard.AssemblyInfoInputs.cache
+C:\projects\MyBowlingApp\BowlingScoringBoard\obj\Debug\netstandard2.0\BowlingScoringBoard.AssemblyInfo.cs
+C:\projects\MyBowlingApp\BowlingScoringBoard\obj\Debug\netstandard2.0\BowlingScoringBoard.dll
+C:\projects\MyBowlingApp\BowlingScoringBoard\obj\Debug\netstandard2.0\BowlingScoringBoard.pdb

@@ -1,0 +1,30 @@
+﻿<Window x:Class="BowlingScoringBoardMVVM.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:BowlingScoringBoardMVVM"
+    xmlns:vm="clr-namespace:BowlingScoringBoardMVVM.ViewModel" mc:Ignorable="d" Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <vm:BowlingGameplayVM/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <Button Margin="10" Content="Add player" Command="{Binding AddPlayerCommand}"/>
+            <Button Margin="10" Content="Start game" Command="{Binding StartGameCommand}"/>
+            <Button Margin="10" Content="End game" Command="{Binding EndGameCommand}"/>
+            <Button Margin="10" Content="Simulate throw" />
+            <Button Margin="10" Content="Simulate frame" />
+            <Button Margin="10" Content="Simulate game" />
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <DataGrid DataContext="{Binding Players}">
+
+            </DataGrid>
+        </Grid>
+    </Grid>
+</Window>
